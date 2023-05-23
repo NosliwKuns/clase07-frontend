@@ -1,0 +1,49 @@
+body {
+  /* background: red; */
+}
+
+.imagen-batman {
+  display: block;
+  margin: auto;
+}
+
+main {
+  margin-top: 8em;
+}
+
+h1 {
+  padding: 10px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 5px;
+}
+
+.titulo-section {
+  
+  background: #C4C4C4;
+  color: #005677;
+  
+}
+
+span {
+  font-weight: 600;
+}
+
+.listas-no-style {
+  list-style: none;
+}
+
+footer {
+  background: #005677;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px
+}
+
+footer p 
+
