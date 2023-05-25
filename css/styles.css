@@ -1,10 +1,19 @@
-body {
-  /* background: red; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.imagen-batman {
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.imagen-cv {
   display: block;
-  margin: auto;
+  margin: 30px auto;
+  width: 150px;
+
 }
 
 main {
@@ -13,7 +22,7 @@ main {
 
 h1 {
   padding: 10px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   text-align: center;
 }
 
@@ -21,15 +30,46 @@ h2 {
   letter-spacing: 5px;
 }
 
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  padding: 20px 10px;
+}
+
 .titulo-section {
   
   background: #C4C4C4;
   color: #005677;
+  padding: 0 10px;
   
+}
+
+.information-list {
+  list-style-type: none;
+}
+
+.information-list li {
+  margin-bottom: 10px;
+}
+
+.information-list li .period {
+  display: inline-block;
+  width: 90px;
+}
+
+.information-list li .details {
+  display: inline-block;
+}
+
+p {
+  display: inline;
 }
 
 span {
   font-weight: 600;
+  font-style: italic;
 }
 
 .listas-no-style {
@@ -42,8 +82,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px
+  gap: 10px;
+  padding: 5px;
 }
-
-footer p 
 
